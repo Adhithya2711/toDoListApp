@@ -1,0 +1,31 @@
+.Add-Task input[type=text]{
+    width: 85%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: 2px solid goldenrod;
+    outline: none;
+    color:grey;
+    background-color: transparent;
+    font-size: xx-large;
+}
+
+.Add-Task input[type=text]::placeholder{
+    color: rgb(75, 74, 72);
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.Add-Task input[type=submit]{
+    background-color: transparent;
+    border-radius: 4px;
+    color:goldenrod;
+    font-size: 38px;
+    padding: 0px 5px;
+    outline: none;
+    border: none;
+   
+}

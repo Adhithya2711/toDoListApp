@@ -1,4 +1,6 @@
 import React from "react";
+import './App.css';
+import Todolist from "./ToDoList/ToDoList";
 
 const TodoApp = () =>{
 
@@ -17,6 +19,9 @@ const TodoApp = () =>{
     return (
          <div className="Todo-App">
             <h1>Today <span>{day} {date} {month}</span></h1>
+
+            <Todolist />
+
          </div>
     );
 }
