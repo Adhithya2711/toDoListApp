@@ -29,3 +29,9 @@
     border: none;
    
 }
+
+.Add-Task input[type=submit]:hover{
+    color:gray;
+    cursor: pointer ;
+   
+}
